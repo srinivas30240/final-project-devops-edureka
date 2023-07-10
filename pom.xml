@@ -19,6 +19,9 @@
 		<sonar.jacoco.reportPath>${project.basedir}/target/jacoco.exec</sonar.jacoco.reportPath>
 		<sonar.language>java</sonar.language>
 	</properties>
+	<properties>
+               <failOnMissingWebXml>false</failOnMissingWebXml>  
+        </properties>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
